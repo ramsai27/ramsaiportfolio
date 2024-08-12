@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.head a{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.head a:hover{
+    background-color: rgb(184, 237, 237);
+    color: black;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.icon{
+    font-weight: bold;
+    font-size: x-large;
+    margin-right: 5px;
+}
+
+.home{
+    border: 2px solid black;
+}
+
+.about{
+    text-align: justify;
+    font-size: large;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.work{
+    width: 100%;
+    height: 200px;
+}
+
+.skills{
+    border: 2px solid black;
+}
+
+.aboutmargin{
+    padding-top: 70px !important;
+}
+
